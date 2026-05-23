@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+    <style>
+        table{
+            height: 100vh;
+            width: 100%;
+        }
+        td{
+            background-color: lightblue;
+            padding: 50px;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h3>Form submission</h3>
+    <form action="/submit" method="GET">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Enter your name"><br/>
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Enter your password">
+        <button type="submit">Submit</button>
+    </form> -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Rollno</th>
+                <th>Name</th>
+                <th>city</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Kishore</td>
+                <td>Chennai</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ravi</td>
+                <td>Coimbatore</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Arun</td>
+                <td>Madurai</td>
+            </tr>
+        </tbody>
+        <tfoot>
+           <tr>
+                <td colspan="3">this is a footer</td>
+            </tr> 
+        </tfoot>
+    </table>
+</body>
+</html>
+
+<!-- html HTML, HTml
+ Get method
+    data is sent in the URL and is visible to everyone, it has a limit of 2048 characters, and is not suitable for sensitive data like passwords. It can be bookmarked and cached by browsers.
+  and 
+    
+  post method
+  data is sent through body. It is not visible in the URL, has no size limitations, and is more secure for sensitive data. It cannot be bookmarked or cached by browsers.  
+   -->
