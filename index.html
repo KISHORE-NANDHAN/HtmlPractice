@@ -6,15 +6,16 @@
     <title>Document</title>
     <script src="./script.js"></script>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <h3>Form submission</h3>
+    <h3 class="text-red-300">Form submission</h3>
     <form action="/submit" method="GET">
         <label for="name">Name:</label>
-        <input type="text" name="name" placeholder="Enter your name"><br/>
+        <input class="" type="text" name="name" placeholder="Enter your name"><br/>
         <label for="password">Password:</label>
         <input type="password" name="password" placeholder="Enter your password">
-        <button type="submit">Submit</button>
+        <button class="bg-sky-500 hover:bg-sky-700 rounded-xl " type="submit">Submit</button>
     </form>
     <table border="1">
         <thead>
